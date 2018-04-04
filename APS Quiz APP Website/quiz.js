@@ -7,7 +7,7 @@ var option2=document.getElementById('opt2');
 var option3 =document.getElementById('opt3');
 var option4 = document.getElementById('opt4');
 var totalQuestions = questions.length; //get questions from question.js file
-var nextButton = document.getElementById('next-btn');
+var nextButton = document.getElementById('nextButton');
 var resultContainer = document.getElementById('result');
 
 function loadQuestion(questionIndex){

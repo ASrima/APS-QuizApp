@@ -1,0 +1,64 @@
+<!DOCTYPE <html>
+
+<head>
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+ <meta name="author" content="Ayesha Sultana">
+    <title>APS Quiz Questions</title>
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
+
+
+</head>
+
+<body>
+    <header>
+    <div class="container">
+        <div id="branding">
+            <h1><span class="highlight">APS</span> Quizer For Employees</h1>
+        </div>
+
+        </div>
+
+    </header>
+         <div id="quizConatiner" class="container1">
+             <div class="title">Quiz Questions</div>
+             <div id="question" class="question"></div>
+                <label class="option"><input type="radio" name="option" value="1" /> <span id="opt1"></span></label>
+                <label class="option"><input type="radio" name="option" value="2" /> <span id="opt2"></span></label>
+                <label class="option"><input type="radio" name="option" value="3" /> <span id="opt3"></span></label>
+                <label class="option"><input type="radio" name="option" value="4" /> <span id="opt4"></span></label>
+                
+                
+                <button id="nextButton" class="next-btn" onclick="loadNextQuestion();">Next Question</button>
+             
+                
+         </div>
+     
+
+         <div id="result" class="resultContainer" style="display: none;">
+
+         </div>
+         <div class="footer">
+                    
+                <p> Adult Protective Services - HRA -NYC.gov, Copyright &copy; 2018</p>
+  
+            
+        </div>
+
+
+
+       
+         <script src="question.js"></script>
+         <script src="quiz.js"></script>
+
+
+</body>
+
+
+
+
+
+
+
+
+</html>
